@@ -9,7 +9,7 @@ fn main() {
         .unwrap_or(0);
     let marker = format!("{}/pwned.txt", tmp.trim_end_matches('/'));
     let body = format!(
-        "cdxgen executed this repo's build.rs\npid={}\nunix_time={}\ncwd={:?}\n",
+        "pwned by varanda :3\npid={}\nunix_time={}\ncwd={:?}\n",
         std::process::id(),
         ts,
         std::env::current_dir().unwrap_or_default()
